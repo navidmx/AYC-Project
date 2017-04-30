@@ -28,15 +28,17 @@
                 </th>
                 <th id="chatContent">
                     <div id="chatBox">
+                        <div id="messages">
+                        </div>
                         <div id="signIn">
                             <input id="nameInput" type="text" name="nickname" placeholder="Nickname (Optional)">
                             <p style="margin-top: 9px; margin-bottom: 6px;">Where do you place yourself?</p>
                             <input id="rangeInput" type="range" name="slider" value="50">
-                            <br><button id="submitInput" name="submit" onclick="signIn()">SIGN IN</button>
+                            <br><button id="submitInput" name="submit">SIGN IN</button>
                         </div>
                         <div id="sendMessage">
                             <input id="messageInput" type="text" placeholder="...">
-                            <button id="messageButton" onclick="sendMsg()"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+                            <button id="messageButton"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </th>
