@@ -2,14 +2,6 @@ let name = 'Anonymous';
 let value = 50;
 let color = '#000000';
 
-function signIn(){
-    name = ($('#nameInput').val() == '') ? 'Anonymous' : $('#nameInput').val();
-    value = $('#rangeInput').val();
-    $('#signIn').hide();
-    $('#sendMessage').show();
-    console.log(name + ' ' + value);
-}
-
 $(document).ready(function(){
     $('#rangeInput').change(function() {
         let cVal = $('#rangeInput').val();
@@ -21,5 +13,19 @@ $(document).ready(function(){
         else if (cVal <= 100) { color = '#ff0000'; } //right
 
         $('#nameInput').css('color', color);
+    });
+
+    $('#submitInput').click(function() {
+        name = ($('#nameInput').val() == '') ? 'Anonymous' : $('#nameInput').val();
+        value = $('#rangeInput').val();
+        $('#signIn').hide();
+        $('#sendMessage').show();
+        console.log(name + ' ' + value);
+    });
+
+    $('#messageButton').click(function() {
+        let message = $('#messageInput').val();
+        $('#messages').append('<div class="message"><p class="name" style="color: '+color+'">'+name+'</p><p class="content">'+message+'</p></div>');
+        $('#messageInput').val('');
     });
 });
