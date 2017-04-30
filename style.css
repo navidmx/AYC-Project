@@ -61,21 +61,21 @@ th {
 #libContent{
     position: fixed;
     height: 100%;
-    width: 100%;
+    width: 34.5%;
     overflow-y: auto;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 20px;
 }
 
 #conContent{
     position: fixed;
     height: 100%;
-    width: 100%;
+    width: 34%;
     overflow-y: auto;
     text-align: right;
-    padding-top: 20px;
-    padding-right: 20px;
+    padding-top: 0px;
+    padding-left: 20px;
 }
 
 #chatBox{
