@@ -28,19 +28,19 @@ $(document).ready(function(){
         sendMessage(name, color, $('#messageInput').val());
         //Me: "What does everyone think about Trump's policy on the Middle East?"
         if (messageN === 0) {
-            /*right-center*/ setTimeout(function() { sendMessage('Bob', '#0000aa', "Welcome "+name+". I think this is a complicated issue that people need to know about.") }, 2000);
-            /*left-center*/ setTimeout(function() { sendMessage('Paul', '#aa0000', "I agree. Actually, I didn't realize the complexity of politics in the Middle East until I read some articles about it on PurpleNews.") }, 5000);
+            /*right-center*/ setTimeout(function() { sendMessage('Bob', '#0000aa', "Welcome "+name+". Finally another liberal here. Paul here thinks that ObamaCare is unfair to businesses.") }, 2000);
+            /*left-center*/ setTimeout(function() { sendMessage('Paul', '#aa0000', "Well if you look at the article on the top right, you'll see that they're very unfairly taxed!") }, 5000);
             messageN++;
         }
         //Me: "Yes, it's so important to know both sides of the argument."
         else if (messageN === 1) {
-            /*center*/ setTimeout(function() { sendMessage('Fred', '#000000', "I agree.") }, 2000);
-            /*right*/ setTimeout(function() { sendMessage('Tucker', '#ff0000', "Forget people knowing about issue. We need to take action now!") }, 4000);
+            /*center*/ setTimeout(function() { sendMessage('Fred', '#000000', "That's interesting... but how would his replacement work?") }, 2000);
+            /*right*/ setTimeout(function() { sendMessage('Tucker', '#ff0000', "It would be better!! Trump has solid business ethics.") }, 4000);
             messageN++;
         }
         //Me: "But people need to be educated about global issues"
         else if (messageN == 2) {
-            /*center*/ setTimeout(function() { sendMessage('Bob', '#0000aa', "I'm so glad that PurpleNews has brought together varying viewpoints on the news!") }, 2000);
+            /*center*/ setTimeout(function() { sendMessage('Paul', '#aa0000', "That's actually a good point. I guess it is somewhat unethical to remove funding from all that.") }, 2000);
             messageN++;
         }  
     });

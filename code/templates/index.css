@@ -1,0 +1,165 @@
+html, body{
+    margin: 0;
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    font-size: 38px;
+    color: #BB4BFF;
+    margin: 0;
+    line-height: 9%;
+    text-align: center;
+    background-color: white;
+}
+
+#mainTable{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 90%;
+}
+
+th {
+    border-color: black;
+    border-spacing: 5px;
+
+}
+
+.board{
+    height: 8%;
+}
+
+#liberal{
+    width: 37%;
+    background-color: #88DCFC;
+}
+
+#chat{
+    width: 26%;
+    background-color: #E6BEFF;
+}
+
+#chatBox{
+    height: 100%;
+    background-color: white;
+}
+
+#nameInput{
+    width: 70%;
+    transition: width 1s;
+    margin-top: 10px;
+    height: 20%;
+    border: 0;
+    color: #000000;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nameInput:hover {
+    width: 75%;
+}
+
+#signIn{
+    display: block;
+    background-color: #EED3FF;
+    height: 20%;
+    width: 25.9%;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+#sendMessage{
+    display: none;
+    background-color: #EED3FF;
+    height: 8%;
+    width: 25.9%;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+#messageInput{
+    width: 75%;
+    height: 60%;
+    border: 0;
+    margin: 10px 52px 10px 0px;
+    color: #BB4BFF;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: -10px;
+}
+
+#rangeInput{
+    width: 76%;
+}
+
+#submitInput{
+    margin-top: 11px;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    background-color: #E0AFFF;
+    border: none;
+    transition: padding-left 1s, padding-right 1s;
+}
+
+#submitInput:hover{
+    background-color: #e2b6ff;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000;
+    background: -webkit-linear-gradient(left, #88dcfc 0%,#e6beff 51%,#ffa4a4 100%);
+    background: linear-gradient(to right, #88dcfc 0%,#e6beff 51%,#ffa4a4 100%);
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#messageButton{
+    padding: 9px 12px 9px 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #E0AFFF;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#conservative{
+    width: 37%;
+    background-color: #FFA4A4;
+}
