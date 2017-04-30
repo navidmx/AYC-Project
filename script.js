@@ -1,3 +1,17 @@
+var name = "Anonymous";
+var value = 50;
 
-
-let nytimes = $.get('http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml', function(data) { console.log(data) });
+function signIn(){
+    name = document.getElementById("nameInput").value;
+    if (name != ""){
+        value = document.getElementById("rangeInput").value;
+        document.getElementById("signIn").style.display = "none";
+        console.log(name+" "+value);
+    }
+    else {
+        name = "Anonymous";
+        value = document.getElementById("rangeInput").value;
+        document.getElementById("signIn").style.display = "none";
+        console.log(name+" "+value);
+    }
+}

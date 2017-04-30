@@ -4,12 +4,34 @@
         <title>AYC Project</title>
         <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <script src="https://use.fontawesome.com/102d004b3a.js"></script> <!-- Font Awesome -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- JQuery -->
     </head>
     <body>
-        <p>Preliminary setup for Agile Youth Challenge NYC.</p>
-        <p>Team Members: Navid, Jediah, Alex, and Chris.</p>
-        <p><i class="fa fa-file-o"></i></p>
+        <div id="header">
+            <p>Purple<b>News</b></p>
+        </div>
+        <table id="mainTable">
+            <tr>
+                <th class="board" id="liberal">Liberal</th>
+                <th class="board" id="chat">Chat</th>
+                <th class="board" id="conservative">Conservative</th>
+            </tr>
+            <tr>
+                <th id="libContent">Test</th>
+                <th id="chatContent">
+                    <div id="chatBox">
+                        <div id="signIn">
+                            <input id="nameInput" type="text" name="nickname" placeholder="Nickname (Optional)">
+                            <p style="margin-top: 9px; margin-bottom: 6px;">Where do you place yourself?</p>
+                            <input id="rangeInput" type="range" name="slider" value="50">
+                            <br><input id="submitInput" type="button" name="submit" value="Sign In" onclick="signIn()">
+                        </div>
+                    </div>
+                </th>
+                <th id="conContent">Test</th>
+            </tr>
+        </table>
     </body>
 </html>
