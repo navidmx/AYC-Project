@@ -1,0 +1,9 @@
+html, body{
+    margin: 0;
+    background-color: #002933;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
