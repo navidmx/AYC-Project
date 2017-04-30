@@ -23,7 +23,9 @@
             <tr>
                 <th id="libContent">
                     {% for item in left_items%}
-                    <h2>{{left_items.title}}</h2>
+                    <p class="title"><b>{{left_items.title}}</b></p>
+                    <div class="author">{{left_items.author}}</div>
+                    <p class="summary">{{left_items.summary}}</p>
                     {%endfor}
                 </th>
                 <th id="chatContent">
@@ -44,7 +46,9 @@
                 </th>
                 <th id="conContent">
                     {% for item in right_items%}
-                    <h2>{{right_items.title}}</h2>
+                    <p class="title"><b>{{right_items.title}}</b></p>
+                    <div class="author">{{right_items.author}}</div>
+                    <p class="summary">{{right_items.summary}}</p>
                     {%endfor}
                 </th>
             </tr>

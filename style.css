@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     background-color: #F5F5F5;
     font-family: 'Raleway', sans-serif;
+    overflow: hidden;
 }
 
 #header{
@@ -55,6 +56,26 @@ th {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     font-size: 30px;
+}
+
+#libContent{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#conContent{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 #chatBox{
@@ -191,4 +212,36 @@ button:focus {
     color: white;
     margin-left: 15px;
     cursor: pointer;
+}
+
+#libContent .title{
+    font-size: 22px;
+    color: #4d62ff;
+    margin-bottom: 3px;
+}
+
+#libContent .author{
+    font-size: 16px;
+    color: #0000aa;
+    margin-bottom: -14px;
+}
+
+#libContent .summary{
+    font-size: 18px;
+}
+
+#conContent .title{
+    font-size: 22px;
+    color: #d12020;
+    margin-bottom: 3px;
+}
+
+#conContent .author{
+    font-size: 16px;
+    color: #aa0000;
+    margin-bottom: -14px;
+}
+
+#conContent .summary{
+    font-size: 18px;
 }
