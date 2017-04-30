@@ -6,6 +6,7 @@ function signIn(){
     name = ($('#nameInput').val() == '') ? 'Anonymous' : $('#nameInput').val();
     value = $('#rangeInput').val();
     $('#signIn').hide();
+    $('#sendMessage').show();
     console.log(name + ' ' + value);
 }
 
