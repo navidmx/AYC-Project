@@ -162,6 +162,26 @@ button:focus {
     outline: none;
 }
 
+#messages{
+    text-align: left;
+/*
+    overflow: auto;
+    max-height: 600px;
+*/
+}
+
+.message .name{
+    padding-left: 15px;
+    margin-top: 0;
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+.message .content{
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
 #messageButton{
     padding: 9px 12px 9px 12px;
     font-size: 15px;

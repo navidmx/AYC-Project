@@ -22,8 +22,8 @@
             </tr>
             <tr>
                 <th id="libContent">
-                    {% for item in items%}
-                    <h2>{{items.title}}</h2>
+                    {% for item in left_items%}
+                    <h2>{{left_items.title}}</h2>
                     {%endfor}
                 </th>
                 <th id="chatContent">
@@ -42,7 +42,11 @@
                         </div>
                     </div>
                 </th>
-                <th id="conContent">Test</th>
+                <th id="conContent">
+                    {% for item in right_items%}
+                    <h2>{{right_items.title}}</h2>
+                    {%endfor}
+                </th>
             </tr>
         </table>
     </body>
