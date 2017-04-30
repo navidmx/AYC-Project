@@ -9,7 +9,7 @@ html, body{
     width: 100%;
     height: 10%;
     font-size: 38px;
-    color: #BB4BFF;
+    color: #9a2dde;
     margin: 0;
     line-height: 9%;
     text-align: center;
@@ -35,12 +35,26 @@ th {
 
 #liberal{
     width: 37%;
-    background-color: #88DCFC;
+    background-color: #4d62ff;
+    color: white;
+    font-family: 'Eagle-Lake', cursive;
+    font-size: 30px;
 }
 
 #chat{
     width: 26%;
-    background-color: #E6BEFF;
+    background-color: #9a2dde;
+    color: white;
+    font-size: 25px;
+}
+
+#conservative{
+    width: 37%;
+    background-color: #d12020;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
 }
 
 #chatBox{
@@ -157,9 +171,4 @@ button:focus {
     color: white;
     margin-left: 15px;
     cursor: pointer;
-}
-
-#conservative{
-    width: 37%;
-    background-color: #FFA4A4;
 }
