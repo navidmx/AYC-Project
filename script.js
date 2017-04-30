@@ -1,4 +1,4 @@
-var test = "is a variable";
 
-console.log("This "+test);
-console.log("On Chrome, you can right-click and select Inspect to see the console.")
+$(function() {
+	let nytimes = $.get('http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml', function(data) { console.log(data) });
+});
